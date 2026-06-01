@@ -1,7 +1,7 @@
 # 故障分析システム（Failure Analysis System）
 
 製造・設備保全の現場で発生する**故障報告を AI で構造化・蓄積し、検索・分析・示唆出し**まで行うフルスタックWebアプリケーション。
-要件定義からフロント／バックエンド実装、テスト、までを一貫して制作しました。
+要件定義からフロントエンド／バックエンド実装、自動テストまでを一貫して設計・実装しました。
 
 ---
 
@@ -58,7 +58,7 @@ training_program/
 │       ├── app/          # 画面（login / search / input / dashboard / admin）
 │       ├── components/   # HeaderNav, AuthGuard
 │       └── lib/          # api クライアント, auth-context
-├── docs/             # 要件定義・設計ドキュメント（ペルソナ/ジャーニー/画面仕様/DB/API）
+└── docs/             # 要件定義・設計ドキュメント（ペルソナ/ジャーニー/画面仕様/DB/API）
 ```
 
 ## 主なAPIエンドポイント
@@ -101,9 +101,3 @@ npm run dev
 ```bash
 cd backend && pytest
 ```
-
----
-
-## スクリーンショット
-
-`slides/screenshots/` に主要画面のキャプチャを収録しています（ログイン / データ入力 / 検索一覧・詳細 / ダッシュボード / ユーザー管理）。
