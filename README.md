@@ -59,7 +59,6 @@ training_program/
 │       ├── components/   # HeaderNav, AuthGuard
 │       └── lib/          # api クライアント, auth-context
 ├── docs/             # 要件定義・設計ドキュメント（ペルソナ/ジャーニー/画面仕様/DB/API）
-└── slides/           # プレゼン資料（PPTX / HTML）+ 画面スクリーンショット
 ```
 
 ## 主なAPIエンドポイント
